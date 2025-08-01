@@ -127,7 +127,8 @@ module.exports = {
       await transporter.sendMail({
         from: "info@elaritech.com",
         to: correo_electronico,
-        subject: '¡Hemos recibido tu solicitud de cotización.!',
+    subject: '¡Bienvenido/a a Swingers VIP!',
+
         html: emailContent,
       });
 
